@@ -12,7 +12,7 @@ To compile the program, use the provided Makefile. Open a terminal and navigate 
 
 If you prefer to compile manually, use the following commands:
 
-    gcc -o bumpercars bumpercars.c
+    gcc -Wall -Wextra -pthread -o bumpercars bumpercars.c
 
 After compilation, run the program using the following command:
 
